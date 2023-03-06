@@ -1,0 +1,26 @@
+html{
+    transition: all 1s;
+}
+
+.list-group{
+    gap: 1px;
+}
+
+
+.list-group-item:hover{
+    background-color: #dcdce2;
+    cursor: pointer;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: black;
+    font-size: large;
+} 
+
+.btn-secondary:hover{
+    background-color: #dcdce2;
+    color: black;
+    transform: scale(1.05);
+}
+

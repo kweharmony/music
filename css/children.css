@@ -1,0 +1,34 @@
+body{
+    background-image: url(../assets/children.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+    background-color: white;
+}
+
+.albums a{
+    color: black;
+}
+
+
+.albums .card:hover{
+    outline: 5px solid #dfdfe0;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.albums .card:active{
+    transform: scale(1.005);
+}
+
+.card-text{
+    font-size: large;
+
+}

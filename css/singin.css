@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+}
+
+
+.con1{
+    padding-top: 5%;
+    padding-bottom: auto;
+}
+
+
+.form-signin {
+    width: 100%;
+    max-width: 850px;
+    padding: 30px;
+    margin: auto;
+}
+
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: #0c0594;
+    border-radius: 20px;
+    border-color: #0c0594;
+    width: 85px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+.form-check-label{
+    font-size: 17px;
+    text-align: center;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+.btn:active{
+    transform: scale(1.1);
+}
