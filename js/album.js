@@ -336,7 +336,7 @@ if (albums[search.get(`i`)]){
                 <div class="card-body">
                     <h5 class="card-title">${album.title}</h5>
                     <p class="card-text">${album.description}</p>
-                    <p class="font-weight-bold" Слишком большие файлы, поэтому не работает.</p>
+                    <p class="card-text font-weight-bold" Слишком большие файлы, поэтому не работает.</p>
                     <p class="card-text"><small class="text-muted">Сборник выпущен в ${album.year} году</small></p>
                     <button type="button" class="btn btn-secondary">Слушать</button>
                 </div>
